@@ -45,7 +45,7 @@ env:
   RESOURCE_GROUP: "cln-rg-01"
   CLUSTER_NAME: "cln-aks-01"
   CHART_PATH: "./charts/aks-store-demo/"
-  CHART_OVERRIDE_PATH: "/charts/aks-store-demo/values.yaml"
+  CHART_OVERRIDE_PATH: "./charts/aks-store-demo/values.yaml"
 
 jobs:
   buildImage:
